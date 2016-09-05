@@ -1,0 +1,55 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+    http://www.springframework.org/schema/security 
+    http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+
+	<security:http auto-config="true">
+		<!-- ** To prevent borwser's button back to showing a secured ressource ** -->
+		<security:headers>
+			<security:cache-control />
+			<security:hsts />
+		</security:headers>
+		<!-- ******************************************************************** -->
+			<access-denied-handler error-page="/403_AceesDenied" />
+		<security:intercept-url pattern="/dashboard"
+			access="ROLE_ADMIN" />
+		<security:intercept-url pattern="/dashboard/**"
+			access="ROLE_ADMIN" />
+		<security:intercept-url pattern="/dashboard-manager"
+			access="ROLE_MANAGER" />
+		<security:intercept-url pattern="/dashboard-manager/**"
+			access="ROLE_MANAGER" />
+		<intercept-url pattern="/login" access="ROLE_ANONYMOUS" />
+	<!-- 	<security:access-denied-handler ref="accessDeniedHandler" /> -->
+
+		<form-login login-page="/login"
+			authentication-success-handler-ref="AuthSuccessHandler"
+			authentication-failure-url="/loginfailed" />
+		<security:logout logout-url="/logout"
+			logout-success-url="/login" />
+	</security:http>
+<!--  <beans:bean id="myAuthErrorHandler" class="ma.onlocation.controller.AccessDeniedHandler"/>-->
+	<beans:bean id="AuthSuccessHandler"
+		class="ma.onlocation.controller.AuthentificationSuccessHandler" />
+
+	<beans:bean id='bCryptPasswordEncoder'
+		class='org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder' />
+
+	<security:authentication-manager>
+		<security:authentication-provider>
+			<password-encoder ref="bCryptPasswordEncoder" />
+			<security:jdbc-user-service
+				authorities-by-username-query="select us.user_name, ur.authority from utilisateur us,user_role ur where us.roles_role_id = ur.role_id and us.user_name=? "
+				users-by-username-query="select user_name, user_password,'true' from utilisateur where user_name=?"
+				data-source-ref="dataSourceBean" />
+		</security:authentication-provider>
+
+
+	</security:authentication-manager>
+	<beans:bean
+		class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler" />
+   </beans:beans>
