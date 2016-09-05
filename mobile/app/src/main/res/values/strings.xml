@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">onLocation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_place">DetailPlaceActivity</string>
+
+    <string name="title_activity_main">onLocation</string>
+    <string name="dummy_button">Chargement en cours...</string>
+    <string name="dummy_content">Splash screen</string>
+    <string name="title_activity_activity_products">Liste des Produits</string>
+    <string name="title_activity_cart">Panier</string>
+    <string name="title_activity_confirmation_command">ConfirmationCommandActivity</string>
+</resources>

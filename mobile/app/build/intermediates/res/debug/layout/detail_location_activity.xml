@@ -1,0 +1,260 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="ma.onlocation.activity.LocationDetailActivity">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/photoLocationDetail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:contentDescription="TODO"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:src="@android:color/darker_gray"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/photoLocationDetail"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="category"
+            android:id="@+id/category"
+            android:textSize="10sp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="description"
+            android:textSize="20sp"
+            android:id="@+id/description"
+            android:textColor="#000000"
+            android:layout_below="@+id/category"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="adresse"
+            android:id="@+id/adresse"
+            android:textColor="#000000"
+            android:layout_below="@+id/description"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="phone"
+            android:id="@+id/phone"
+            android:textColor="#000000"
+            android:layout_below="@+id/adresse"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/commentsList"
+            android:layout_below="@+id/blocShare"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <RelativeLayout
+            android:id="@+id/blocShare"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/phone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/save_to_favorite"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Enregistrer"
+                android:textSize="10sp"
+                android:id="@+id/saveLocation"
+                android:layout_below="@+id/imageView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView6"
+                android:src="@drawable/like"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/saveLocation"
+                android:layout_toEndOf="@+id/saveLocation"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="36dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="J&apos;aime"
+                android:textSize="10sp"
+                android:id="@+id/likeLocation"
+                android:layout_below="@+id/imageView6"
+                android:layout_alignLeft="@+id/imageView6"
+                android:layout_alignStart="@+id/imageView6" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView7"
+                android:src="@drawable/share"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Partager"
+                android:textSize="10sp"
+                android:id="@+id/share"
+                android:layout_below="@+id/imageView7"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView8"
+                android:src="@drawable/commenter"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/share"
+                android:layout_toStartOf="@+id/share"
+                android:onClick="goToCommentForm"
+                android:layout_marginRight="58dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Commenter"
+                android:textSize="10sp"
+                android:id="@+id/comment"
+                android:layout_below="@+id/imageView8"
+                android:layout_alignLeft="@+id/imageView8"
+                android:layout_alignStart="@+id/imageView8"
+                android:onClick="goToCommentForm"
+                android:layout_marginLeft="-15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Tous les conseils"
+                android:id="@+id/textView"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView9"
+            android:layout_alignBottom="@+id/adresse"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_launcher"
+            android:onClick="goToProductsList"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/heart_white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="12dp"
+        android:background="#80000000"
+        android:padding="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/likePageDetail"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_marginBottom="10dp"
+        android:background="#80000000"
+        android:padding="2dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:background="#80000000"
+        android:padding="2dp"
+        android:src="@drawable/comment_white"
+        android:layout_marginLeft="12dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignRight="@+id/relativeLayout"
+        android:layout_alignEnd="@+id/relativeLayout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="#80000000"
+        android:padding="2dp"
+        android:id="@+id/commentDetailLocation"
+        android:layout_alignTop="@+id/likePageDetail"
+        android:layout_toLeftOf="@+id/imageView4"
+        android:layout_toStartOf="@+id/imageView4" />
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Latitude/Downloads/onlocation-V1.2/onLocation/app/src/main/res/layout/detail_location_activity.xml -->

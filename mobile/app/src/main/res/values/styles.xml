@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="colorControlNormal">#ffffff</item>
+        <!-- Panel attributes -->
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+        <item name="actionMenuTextColor">#ffffff</item>
+        <item name="colorPrimaryDark">#4ba0d5</item>
+        <item name="colorPrimary">#4ba0d5</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@null</item>
+        <item name="metaButtonBarButtonStyle">@null</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarButtonStyle -->
+    <style name="ButtonBarButton" />
+
+    <style name="FullscreenActionBarStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorPrimary">#ffffff</item>
+    </style>
+
+</resources>

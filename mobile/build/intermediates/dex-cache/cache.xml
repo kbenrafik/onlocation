@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-22d85d7e1c9329c7b479ab9b523d7e472e329a0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-85e479c76f2a100497aad063301459c12ca37fce.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-fe2c3287b37d2ef0052892c7da1546eeaeb0697a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-a36aaf5a3a462553bf001a3c39d7fcd94731b898.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-c75982a82191b41b76f9a302704cf0c39fe2714f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-b6a738c4fb1c9028114488ada28b42659e320844.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-c84e31dd36bd63184c7c769f345c6167015d1856.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-03dcdb13cb3bb0be91dae25faabe11005235896e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-742a0f9222351c6162e4b0fb7ee682cea0415bcd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-2237f65a60101100b225908624f1782393a01b8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-3e4af6753558a721f5cedc4b18377a6c2b002e3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-a944468494e4c40b3d889249d634cfc80bc33dd4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-7ebf53886ef295ea995b76c3b8a0213cc130e9a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-964fe1bf49de94b37f7abed9b1666d7f76c5447c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-1ad0959f76ac74c0496e42d02083a2d88733a171.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-d1ce02c1de9b8be967e3c1c189d82f3cc5beb09c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-04a02c96b0476d775129d49af3cd9dbc211b49ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-dfe6196d26acc1ee68f11d4f13240958001dc600.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-aec5a6c9651488f22bb0607189262f03c40cbfd1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-3357b60d035841aeca67d6cd3b0a13442ec0137c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-5aeef472bee00c0e2e9d6246ecaf03933a5273c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-a0c6377ac77a362dd796f202683fb2a57a4598d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-cad384b9d5b2d374266b329afdb68bf9e32aa1e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-d604733ac95b473497952be74d5cae1a750cb252.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-d166aeddde816038514f203fe5439a263655e17b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-97e2fe9db7c89a15bd6cceead29874cacd5a92ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-bed596f7b27c4f751de74843d919a177c166a70b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-d876d822d7ef22c4bb326c96bd8e1ce0608b1a97.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-391db1f0c3ec6e6db57715c04a8f134cc5ffe27e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-ae1f1ceacfeb9e2965fb0fe6fa50a9be6845db0b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-f26899f497981e0d6ee49a68dedca943848dc849.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-633c03b76688cbf1f6adc12fc54c49e6c3ffc7d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-1bd4ff3d9204fa3eeae73865c9318a741934f44a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-523c2204a18961bd0bd55c20f2fcccbb8e8737e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-6594c36a11fa24f66692f7bed5268e0cfc0d3a13.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-5b3a1b530c45e4d0883c0ab6360c0b7d52a87bc9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-1875f24b2d7d90e4361fa46b62cc98d19c003ad4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-6fed96fbc9a42bb081b5d239ad12e7175bc1a5f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-7ec933fc39a47de54b88483374ee8643e342bab4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-c1a8e0fd46c6503638a0b91e33e65c8e543b86f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-d336c8e5be44e93e6674d7075b05b8cf9529ca2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-34c5add9d4667d4e75b1c107afc72e3ba291a6cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-e8c9b48622212387fa1459d814d818ceb72ab2cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-e5e5b6abd83bbcabe55a2522e1019cd8b444d78e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-bb4c39872c5b8936aebcd2f60f260f97c34312fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\Latitude\Downloads\onlocation-V1.2\onLocation\app\build\intermediates\pre-dexed\debug\classes-a376f36be5d7a99e9a89bd094edcbd9f7f8b3d11.jar" />
+    </item>
+    <item
+        jar="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\Latitude\Desktop\MyApplication-V1.1\MyApplication\app\build\intermediates\pre-dexed\debug\classes-baf534a7101f6e6f7587aea2a6195defbf096a25.jar" />
+    </item>
+
+</items>

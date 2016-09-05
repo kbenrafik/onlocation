@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ma.onlocation.CartActivity">
+    <item
+        android:id="@+id/action_produits"
+        android:title="Catalogue"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>

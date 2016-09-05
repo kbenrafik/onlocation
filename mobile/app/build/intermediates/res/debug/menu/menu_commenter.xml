@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ma.onlocation.activity.LocationDetailActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Valider"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+</menu>
+<!-- From: file:/C:/Users/Latitude/Downloads/onlocation-V1.2/onLocation/app/src/main/res/menu/menu_commenter.xml -->

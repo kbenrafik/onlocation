@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="ma.onlocation.activity.CommentFormActivity"
+    android:focusable="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dadada"
+        android:id="@+id/topLayout"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="description"
+            android:id="@+id/description" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/editText"
+        android:layout_below="@+id/topLayout"
+        android:hint="commencer à écrire..."
+        android:gravity="top"
+
+        android:textColor="#dadada" />
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Latitude/Downloads/onlocation-V1.2/onLocation/app/src/main/res/layout/comment_form_activity.xml -->
